@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tastybite/static/css/main.b6511111.css",
+    "main.js": "/tastybite/static/js/main.bddbf81b.js",
+    "index.html": "/tastybite/index.html",
+    "main.b6511111.css.map": "/tastybite/static/css/main.b6511111.css.map",
+    "main.bddbf81b.js.map": "/tastybite/static/js/main.bddbf81b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b6511111.css",
+    "static/js/main.bddbf81b.js"
+  ]
+}
