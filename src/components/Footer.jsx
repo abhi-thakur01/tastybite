@@ -18,9 +18,18 @@ const Footer = () => {
             </Link>
             <p className="text-gray-400 text-sm mb-4">Fresh ingredients, expert chefs and fast delivery. Experience the best food like never before.</p>
             <div className="flex gap-3">
-              {[<FaFacebookF />, <FaInstagram />, <FaTwitter />, <FaYoutube />].map((icon, i) => (
-                <a key={i} href="#" className="w-8 h-8 bg-darkCard rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-dark transition-all text-sm">{icon}</a>
-              ))}
+              <button onClick={() => window.open('https://facebook.com', '_blank')} className="w-8 h-8 bg-darkCard rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-dark transition-all text-sm">
+                <FaFacebookF />
+              </button>
+              <button onClick={() => window.open('https://instagram.com', '_blank')} className="w-8 h-8 bg-darkCard rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-dark transition-all text-sm">
+                <FaInstagram />
+              </button>
+              <button onClick={() => window.open('https://twitter.com', '_blank')} className="w-8 h-8 bg-darkCard rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-dark transition-all text-sm">
+                <FaTwitter />
+              </button>
+              <button onClick={() => window.open('https://youtube.com', '_blank')} className="w-8 h-8 bg-darkCard rounded-full flex items-center justify-center text-gray-400 hover:bg-primary hover:text-dark transition-all text-sm">
+                <FaYoutube />
+              </button>
             </div>
           </div>
 
@@ -55,14 +64,14 @@ const Footer = () => {
           <div className="col-span-2 md:col-span-1">
             <h4 className="font-bold text-sm mb-4 text-primary">DOWNLOAD APP</h4>
             <div className="space-y-2">
-              <a href="#" className="block bg-darkCard border border-gray-700 rounded-lg px-4 py-2 flex items-center gap-2 hover:border-primary transition-colors">
+              <button onClick={() => window.open('https://apple.com/app-store', '_blank')} className="w-full bg-darkCard border border-gray-700 rounded-lg px-4 py-2 flex items-center gap-2 hover:border-primary transition-colors text-left">
                 <span className="text-2xl">🍎</span>
                 <div><p className="text-[10px] text-gray-400">Download on the</p><p className="text-sm font-semibold">App Store</p></div>
-              </a>
-              <a href="#" className="block bg-darkCard border border-gray-700 rounded-lg px-4 py-2 flex items-center gap-2 hover:border-primary transition-colors">
+              </button>
+              <button onClick={() => window.open('https://play.google.com', '_blank')} className="w-full bg-darkCard border border-gray-700 rounded-lg px-4 py-2 flex items-center gap-2 hover:border-primary transition-colors text-left">
                 <span className="text-2xl">▶️</span>
                 <div><p className="text-[10px] text-gray-400">GET IT ON</p><p className="text-sm font-semibold">Google Play</p></div>
-              </a>
+              </button>
             </div>
           </div>
         </div>
