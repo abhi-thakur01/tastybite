@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tastybite/static/css/main.b6511111.css",
-    "main.js": "/tastybite/static/js/main.bddbf81b.js",
+    "main.js": "/tastybite/static/js/main.c622c7e4.js",
     "index.html": "/tastybite/index.html",
     "main.b6511111.css.map": "/tastybite/static/css/main.b6511111.css.map",
-    "main.bddbf81b.js.map": "/tastybite/static/js/main.bddbf81b.js.map"
+    "main.c622c7e4.js.map": "/tastybite/static/js/main.c622c7e4.js.map"
   },
   "entrypoints": [
     "static/css/main.b6511111.css",
-    "static/js/main.bddbf81b.js"
+    "static/js/main.c622c7e4.js"
   ]
 }
